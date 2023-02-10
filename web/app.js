@@ -14,7 +14,7 @@ function getVideo(URL){
     //     method:'GET'
     // }).then(res => res.json())
     // .then(json => console.log(json));
-    window.location.href = `http://localhost:4000/download?URL=${URL}`;
+    window.location.href = window.location.href +`download?URL=${URL}`;
 }
 
 
