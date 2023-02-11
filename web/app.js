@@ -9,6 +9,13 @@ downloadBtn.addEventListener('click', ()=> {
 
 });
 
+Url.addEventListener('paste', (event)=>{
+    console.log("text has been pasted out");
+});
+
+
+
+
 function getVideo(URL){
     // fetch(`http://localhost:4000/download?URL=${URL}`,{
     //     method:'GET'
